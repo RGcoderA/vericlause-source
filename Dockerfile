@@ -5,5 +5,6 @@ RUN npm ci
 COPY . .
 RUN npm run build
 ENV HOSTNAME=0.0.0.0
+ENV PORT=4317
 EXPOSE 4317
-CMD ["sh", "-c", "next start --hostname 0.0.0.0 --port ${PORT:-4317}"]
+CMD ["npm", "start"]
