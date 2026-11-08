@@ -1,0 +1,15 @@
+project_id = "vericlause"
+
+[api]
+enabled = true
+port = 54321
+
+[db]
+port = 54322
+
+[auth]
+enabled = true
+site_url = "http://127.0.0.1:4317"
+
+[storage]
+enabled = true
